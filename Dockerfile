@@ -3,7 +3,7 @@ LABEL maintainer="ferronrsmith@gmail.com"
 
 ENV NODE_ENV production
 
-RUN npm install elasticdump -g
+RUN npm install yozhi-elasticdump -g
 
 COPY docker-entrypoint.sh /usr/local/bin/
 
